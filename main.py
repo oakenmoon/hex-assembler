@@ -317,7 +317,7 @@ def print_help():
     print("All values are in pixels.")
     return 0
 
-if __name__ == "__main__":
+def main():
     #print(search_csvs("mindsreflection"))
 
     # parse arguments
@@ -328,9 +328,22 @@ if __name__ == "__main__":
     elif args[1] == 'get_code':
         print("".join(extract_pattern(args[2])[0]))
     elif args[1] == 'write_spell':
-        # TODO
+        if not args[2]:
+            print("Please specify the file path for the hex.")
+            return 1
+
+        file = split_file(args[2])
+        print(file)
+        clean = list(map(clean_iota, iter(file)))
+        print(clean)
+        patterns = list(map(lambda x: wasd_code_to_relative_dir_list(search_csvs(clean_iota(x))), iter(split_file(args[2]))))
+        print(patterns)
+        
         pyautogui.PAUSE = 0.033
         move_amt, top_left_x, top_left_y = init_defaults()
-        write_spell(move_amt, top_left_x, top_left_y, RAYCAST_MANTRA)
+        write_spell(move_amt, top_left_x, top_left_y, patterns)
     elif args[1] == 'test_default_settings':
-        TODO
+        raise NotImplemented
+
+if __name__ == "__main__":
+    main()
