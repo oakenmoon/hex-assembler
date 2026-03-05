@@ -265,8 +265,8 @@ def clean_iota(iota:str): # str(iotaname) -> str(iotaname)
     # Standard string cleaning
     iota = iota.strip().casefold()
     # Clear punctuation
-    # Currently removes all non alphanumeric but keeps hyphens
-    iota = re.sub(r"[^a-zA-Z0-9\-]", "", iota)
+    # Currently removes all non alphanumeric but keeps hyphens and colons
+    iota = re.sub(r"[^a-zA-Z0-9\-:]", "", iota)
     return iota
 
 def parse_bookeepers_gambit(bookkeeperiota:str):  # str(bookkeeperiota) -> str(awed)|None
