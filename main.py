@@ -318,19 +318,19 @@ def print_help():
     return 0
 
 if __name__ == "__main__":
-    print(search_csvs("mindsreflection"))
+    #print(search_csvs("mindsreflection"))
 
-    # # parse arguments
-    # args = sys.argv
-    # # If no args or some helpy request, print help message.
-    # if len(args) == 1 or args[1] == '-h' or args[1] == '--help' or args[1] == 'help':
-    #     print_help()
-    # elif args[1] == 'get_code':
-    #     print("".join(extract_pattern(args[2])[0]))
-    # elif args[1] == 'write_spell':
-    #     # TODO
-    #     pyautogui.PAUSE = 0.033
-    #     move_amt, top_left_x, top_left_y = init_defaults()
-    #     write_spell(move_amt, top_left_x, top_left_y, RAYCAST_MANTRA)
-    # elif args[1] == 'test_default_settings':
-    #     TODO
+    # parse arguments
+    args = sys.argv
+    # If no args or some helpy request, print help message.
+    if len(args) == 1 or args[1] == '-h' or args[1] == '--help' or args[1] == 'help':
+        print_help()
+    elif args[1] == 'get_code':
+        print("".join(extract_pattern(args[2])[0]))
+    elif args[1] == 'write_spell':
+        # TODO
+        pyautogui.PAUSE = 0.033
+        move_amt, top_left_x, top_left_y = init_defaults()
+        write_spell(move_amt, top_left_x, top_left_y, RAYCAST_MANTRA)
+    elif args[1] == 'test_default_settings':
+        TODO
