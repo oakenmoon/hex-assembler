@@ -1,0 +1,485 @@
+//Sources:
+//https://forum.petra-k.at/viewtopic.php?t=155&sid=c3814ce4521fae527afb7f8a0218cde3
+//https://forum.petra-k.at/viewtopic.php?t=56&sid=ac99653f614937c5044c645b8c8bd9d5
+//https://forum.petra-k.at/viewtopic.php?t=153
+
+
+#define Vector Sign Purification (SOUTH_EAST awddaqqqq) = vec -> vec
+// (sign(x), sign(y), sign(z))
+{
+    Vector Disintegration
+
+    Sign Purification
+    Rotation Gambit //Example Inline Comment
+    Sign Purification//Example
+    Rotation Gambit    //    Example sss
+    //be like, yeahhh
+   Sign Purification
+    Rotation Gambit
+
+    Vector Exaltation
+}
+
+#define Minimization Distillation (SOUTH_WEST qaa) = num, num -> num
+{
+    Dioscuri Gambit
+    Minimus Distillation
+    Rotation Gambit II
+    Augur's Exaltation
+}
+
+Introspection
+	Consideration
+		Bookkeeper: -
+	Hermes Gambit
+	Consideration
+		Bookkeeper: -
+	Numerical Reflection: 4
+	Prospector Gambit
+	Surgeon Exaltation
+Retrospection
+Numerical Reflection: 1
+Scribe Reflection
+Surgeon Exaltation
+Numerical Reflection: 4
+Prospector Gambit
+Surgeon Exaltation
+
+
+
+
+// CAVATOR FULL CODE
+
+// check if [call telepathy] is being held
+// and if there is something to read in offhand
+// if either are false, stop execution
+Auditor's Reflection
+Telepathic Reflection
+Numerical Reflection: 1
+Additive Distillation
+Augur's Purification
+Conjunction Distillation
+{
+}
+{
+	Janus' Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+// save origin to ravenmind
+Huginn's Gambit
+// blockface check via conjured block on the broken block vector
+Muninn's Reflection
+Conjure Block
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Architect's Distillation
+Gemini Decomposition
+Vector Disintegration
+Bookkeeper's Gambit: v-v
+Numerical Reflection: 0
+Inequality Distillation
+{
+	// case for blockface (0,n,0)
+	Vector Disintegration
+	Bookkeeper's Gambit: v-v
+	Numerical Reflection: 0
+	Minimus Distillation
+	Mind's Reflection
+	Theodolite's Purification
+	Vector Disintegration
+	Bookkeeper's Gambit: -v-
+	Length Purification
+	Jester's Gambit
+	Length Purification
+	Minimus Distillation II
+	{
+		// case for if facing x
+		Scribe's Reflection
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 0
+		Scribe's Reflection
+		Numerical Reflection: 1
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Vector Exaltation
+		Mind's Reflection
+		Theodolite's Purification
+		Vector Disintegration
+		Bookkeeper's Gambit: -vv
+		Axial Purification
+		Gemini Decomposition
+		Numerical Reflection: -1
+		Multiplicative Distillation
+		Mind's Reflection
+		Alidade's Purification
+		Vector Disintegration
+		Bookkeeper's Gambit: v-v
+		Numerical Reflection: 0
+		Minimus Distillation
+		{
+			Jester's Gambit
+			Numerical Reflection: -1
+			Multiplicative Distillation
+			Jester's Gambit
+		}
+		{
+		}
+		Augur's Exaltation
+		Hermes' Gambit
+	}
+	{
+		// case for if facing z
+		Scribe's Reflection
+		Numerical Reflection: 1
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 0
+		Scribe's Reflection
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Vector Exaltation
+		Scribe's Reflection
+		Numerical Reflection: 1
+		Selection Distillation
+		Numerical Reflection: 1
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 2
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 1
+		Selection Distillation
+		Vector Exaltation
+		Mind's Reflection
+		Theodolite's Purification
+		Vector Disintegration
+		Bookkeeper's Gambit: vv-
+		Axial Purification
+		Gemini Decomposition
+		Mind's Reflection
+		Alidade's Purification
+		Vector Disintegration
+		Bookkeeper's Gambit: v-v
+		Numerical Reflection: 0
+		Minimus Distillation
+		{
+			Numerical Reflection: -1
+			Multiplicative Distillation
+		}
+		{
+		}
+		Augur's Exaltation
+		Hermes' Gambit
+	}
+	Augur's Exaltation
+	Hermes' Gambit
+	Numerical Reflection: 1
+	Jester's Gambit
+	Vector Exaltation
+	Numerical Reflection: 3
+	Fisherman's Gambit
+	{
+	}
+	{
+		Numerical Reflection: -1
+		Multiplicative Distillation
+	}
+	Augur's Exaltation
+	Hermes' Gambit
+}
+{
+	Gemini Decomposition
+	Vector Disintegration
+	Bookkeeper's Gambit: -vv
+	Numerical Reflection: 0
+	Inequality Distillation
+	{
+		// case for blockface (n,0,0)
+		Numerical Reflection: 0
+		Scribe's Reflection
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 1
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Vector Exaltation
+		Scribe's Reflection
+		Numerical Reflection: 2
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 1
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 1
+		Selection Distillation
+		Numerical Reflection: 1
+		Selection Distillation
+		Vector Exaltation
+		Rotation Gambit
+		Vector Disintegration
+		Bookkeeper's Gambit: -vv
+		Axial Purification
+		Numerical Reflection: -1
+		Multiplicative Distillation
+		Gemini Decomposition
+	}
+	{
+		// case for blockface (0,0,n)
+		Scribe's Reflection
+		Numerical Reflection: 1
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 0
+		Vector Exaltation
+		Scribe's Reflection
+		Numerical Reflection: 1
+		Selection Distillation
+		Numerical Reflection: 1
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 0
+		Selection Distillation
+		Numerical Reflection: 1
+		Selection Distillation
+		Scribe's Reflection
+		Numerical Reflection: 2
+		Selection Distillation
+		Numerical Reflection: 0
+		Selection Distillation
+		Vector Exaltation
+		Rotation Gambit
+		Vector Disintegration
+		Bookkeeper's Gambit: vv-
+		Axial Purification
+		Gemini Decomposition
+		Numerical Reflection: -1
+		Multiplicative Distillation
+	}
+	Augur's Exaltation
+	Hermes' Gambit
+	Numerical Reflection: 1
+	Jester's Gambit
+	Vector Exaltation
+}
+Augur's Exaltation
+Hermes' Gambit
+Rotation Gambit II
+Jester's Gambit
+Numerical Reflection: 2
+Fisherman's Gambit II
+Vector Disintegration
+Numerical Reflection: 3
+Fisherman's Gambit
+Vector Disintegration
+Numerical Reflection: 669
+Swindler's Gambit
+Multiplicative Distillation
+Numerical Reflection: -4
+Fisherman's Gambit
+Multiplicative Distillation
+Numerical Reflection: -2
+Fisherman's Gambit
+Multiplicative Distillation
+Vector Exaltation
+Rotation Gambit II
+Vector Disintegration
+Numerical Reflection: 3
+Fisherman's Gambit
+Vector Disintegration
+Numerical Reflection: 669
+Swindler's Gambit
+Multiplicative Distillation
+Numerical Reflection: -4
+Fisherman's Gambit
+Multiplicative Distillation
+Numerical Reflection: -2
+Fisherman's Gambit
+Multiplicative Distillation
+Vector Exaltation
+Muninn's Reflection
+Additive Distillation
+Jester's Gambit
+Muninn's Reflection
+Additive Distillation
+Muninn's Reflection
+Break Block
+// >> INSERT GET ALL VECTOR SPELL  << //
+{
+	Sekmet's Gambit: 1
+	Gemini Decomposition
+	Scribe's Reflection
+	Numerical Reflection: 3
+	Selection Distillation
+	Gemini Decomposition
+	Augur's Purification
+	{
+		// filter check
+		Numerical Reflection: 0
+		Selection Distillation
+		{
+			Sekmet's Gambit: 2
+			Jester's Gambit
+			Detective's Purification
+			Equality Distillation
+		}
+		Jester's Gambit
+		Thoth's Gambit
+		True Reflection
+		Locator's Distillation
+		Numerical Reflection: 1
+		Additive Distillation
+		Augur's Purification
+		Scribe's Reflection
+		Numerical Reflection: 3
+		Selection Distillation
+		Numerical Reflection: 1
+		Selection Distillation
+		Exclusion Distillation
+	}
+	{
+		Novice's Gambit
+		True Reflection
+	}
+	Augur's Exaltation
+	Hermes' Gambit
+	Jester's Gambit
+	Ambit Purification
+	Conjunction Distillation
+	{
+		Break Block
+	}
+	{
+	}
+	Augur's Exaltation
+	Hermes' Gambit
+}
+Jester's Gambit
+Thoth's Gambit
+Novice's Gambit
+Scribe's Reflection
+Numerical Reflection: 4
+Selection Distillation
+Hermes' Gambit
+
+Waystone Reflection
+Vector Reflection +Y
+Additive Distillation
+Bind Storage - Temporary
+Stocktake Reflection
+Bookkeeper's Gambit: v
+{
+    Bookkeeper's Gambit: v-
+    Undertaker's Gambit
+    Vector Reflection -Y
+    Impulse
+    Muninn's Reflection
+    Break Block
+    Muninn's Reflection
+    Place Block II
+    Muninn's Reflection
+    Flay Mind
+    Muninn's Reflection
+    Numerical Reflection: 1
+    Zone Distillation: Item
+    Flock's Disintegration
+    Jester's Gambit
+    Mediafy Item
+}
+Prospector's Gambit
+{
+    Undertaker's Gambit
+    Use Item On
+    Bookkeeper's Gambit: vvvv-
+}
+Waystone Reflection
+Vector Reflection +X
+Additive Distillation
+Gemini Decomposition
+Vector Reflection +Z
+Additive Distillation
+Huginn's Gambit
+Numerical Reflection: 2
+Zone Distillation: Living
+Thoth's Gambit
+Bookkeeper's Gambit: v-
+Muninn's Reflection
+Vector Reflection +Z
+Subtractive Distillation
+Numerical Reflection: 2
+Zone Distillation: Living
+Length Purification
+Numerical Reflection: 192
+Maximus Distillation II
+Vacant Reflection
+Consideration
+Charon's Gambit
+Augur's Exaltation
+Hermes' Gambit
+Thoth's Gambit
+Bookkeeper's Gambit: v
+Numerical Reflection: 80
+Splitting Gambit
+Numerical Reflection: 3
+Fisherman's Gambit
+Gemini Decomposition
+Waystone Reflection
+Numerical Reflection: -0.5
+Numerical Reflection: 0.5
+Numerical Reflection: 0
+Vector Exaltation
+Additive Distillation
+Numerical Reflection: 37
+Return Item
+Numerical Reflection: 2
+Flock's Gambit
+Craft
+Flock's Disintegration
+Numerical Reflection: 384
+Splitting Gambit
+Numerical Reflection: 192
+Splitting Gambit
+Numerical Reflection: 96
+Splitting Gambit
+Numerical Reflection: 2
+Flock's Gambit
+Jester's Gambit
+Numerical Reflection: 96
+Splitting Gambit
+Numerical Reflection: 2
+Flock's Gambit
+Numerical Reflection: 2
+Flock's Gambit
+Craft
+Flock's Disintegration
+Rotation Gambit II
+Additive Distillation
+Bookkeeper's Gambit: v
+Additive Distillation
