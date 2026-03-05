@@ -269,6 +269,12 @@ def clean_iota(iota:str): # str(iotaname) -> str(iotaname)
     iota = re.sub(r"[^a-zA-Z0-9\-]", "", iota)
     return iota
 
+def parse_bookeepers_gambit(bookkeeperiota:str):  # str(bookkeeperiota) -> str(awed)|None
+    """
+    :param bookkeeperiota:
+    :return:
+    """
+    # Pattern @ https://regex101.com/r/bsJdyu/3
 
 PATTERN_CSV_FOLDER = "data"
 def search_csvs(search:str): # str(iotaname) -> str(aqwed)
