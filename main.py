@@ -251,7 +251,7 @@ def split_file(hex_file:str): # str(filepath) -> list[str(iotaname)]
 
     # Split into Iota names
     # https://regex101.com/r/x4lg1D/3
-    iota_regex = re.compile(r"^\s*\b(.*)\s*$")
+    iota_regex = re.compile(r"^\s*\b(.*)\s*$", re.MULTILINE)
     iota_list = [clean_iota(match.group(1)) for match in re.finditer(iota_regex, spell_file)]
 
     return iota_list
