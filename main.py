@@ -1,4 +1,10 @@
-import pyautogui 
+"""
+Hex Compiler
+By Oakenmoon & Aurora_Arialis
+Puts a hexcasting spell list into a focus
+"""
+
+import pyautogui
 import math
 import sys
 import re
