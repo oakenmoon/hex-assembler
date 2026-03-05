@@ -303,7 +303,6 @@ def print_help():
     
     print("")
     print("main.py write_spell [filename]")
-    print("\t TODO NOT IMPLEMENTED YET THIS JUST DOES RAYCAST")
     print("\t Reads a file and writes the spell contained within.")
     print("\t Comments using // or # are ignored.")
     print("\t Numbers and Bookkeeper's Gambit are currently not supported.")
