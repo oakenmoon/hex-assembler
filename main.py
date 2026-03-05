@@ -275,6 +275,15 @@ def parse_bookeepers_gambit(bookkeeperiota:str):  # str(bookkeeperiota) -> str(a
     :return:
     """
     # Pattern @ https://regex101.com/r/bsJdyu/3
+    pattern = re.compile(r"Bookk?eepe?r?'?s?.*:\s*([v-]+)\s*", re.IGNORECASE)
+    match = re.match(pattern, bookkeeperiota)
+    # Check if we actually have a bookkeepers gambit:
+    if match:
+        # If we do extract the code from the end and split it into a list
+        gambit_instructions = match.group(1)
+        raise NotImplemented #oak does some magic here to turn this into aqwed code
+    else:
+        return None
 
 PATTERN_CSV_FOLDER = "data"
 def search_csvs(search:str): # str(iotaname) -> str(aqwed)
