@@ -332,12 +332,10 @@ def main():
             print("Please specify the file path for the hex.")
             return 1
 
+        # TODO clean this up
         file = split_file(args[2])
-        print(file)
         clean = list(map(clean_iota, iter(file)))
-        print(clean)
         patterns = list(map(lambda x: wasd_code_to_relative_dir_list(search_csvs(clean_iota(x))), iter(split_file(args[2]))))
-        print(patterns)
         
         pyautogui.PAUSE = 0.033
         move_amt, top_left_x, top_left_y = init_defaults()
