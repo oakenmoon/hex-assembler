@@ -333,4 +333,4 @@ if __name__ == "__main__":
         move_amt, top_left_x, top_left_y = init_defaults()
         write_spell(move_amt, top_left_x, top_left_y, RAYCAST_MANTRA)
     elif args[1] == 'test_default_settings':
-        TODO
+        raise NotImplemented
