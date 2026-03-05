@@ -3,6 +3,7 @@ Imports the HexDebugData pattern registry.
 Ensure that the registry is named registry.json, and that the folder import_reg_out exists.
 To then load the results into the main program, copy all the files in import_reg_out into the data folder. 
 (We have it load into import_reg_out to ensure there's no accidental overwriting of player-defined files.)
+HexBug data: https://pypi.org/project/HexBug-data/
 """
 
 import json
