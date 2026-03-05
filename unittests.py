@@ -14,8 +14,14 @@ class TestCleanIota(unittest.TestCase):
     def test_lowercase(self):
         self.assertEqual("wawa", clean_iota("WaWa"))
 
-    def test_trim_apostropha(self):
+    def test_trim_internal_apostrophe(self):
         self.assertEqual("wawa", clean_iota("wa'wa"))
+
+    def test_trim_trailing_apostrophe(self):
+        self.assertEqual("wawa", clean_iota("wawa'"))
+
+    def test_trim_leading_apostrophe(self):
+        self.assertEqual("wawa", clean_iota("'wawa"))
 
     def test_all(self):
         self.assertEqual("mindsbingus", clean_iota(" Mind's Bingus \n "))
