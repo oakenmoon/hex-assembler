@@ -1,4 +1,13 @@
-import pyautogui 
+"""
+Hex Compiler
+By Oakenmoon & Aurora_Arialis
+last updated: 3/4/2026
+Puts a hexcasting spell list into a focus
+"""
+import csv
+from os import listdir
+
+import pyautogui
 import math
 import sys
 import re
@@ -106,7 +115,7 @@ def init_defaults():
     x_offset = 0
     y_offset = 0
     move_amt = 0
-    with open("default_settings", "r") as file:
+    with open("default_settings", "r", encoding="UTF-8") as file:
         x_offset = int(file.readline())
         y_offset = int(file.readline())
         move_amt = int(file.readline())
@@ -228,7 +237,7 @@ def split_file(hex_file:str): # str(filepath) -> list[str(iotaname)]
     TODO: Add handling for function definitions
     """
     # Read File into a string
-    with open(hex_file, 'r') as file:
+    with open(hex_file, 'r', encoding="UTF-8") as file:
         spell_file = file.read()
 
     # Purge Comments
@@ -256,9 +265,27 @@ def clean_iota(iota:str): # str(iotaname) -> str(iotaname)
     # Standard string cleaning
     iota = iota.strip().casefold()
     # Clear punctuation
-    # Currently removes spaces, underscores, and apostrophes
-    iota = re.sub(r"['_ ]", "", iota)
+    # Currently removes all non word characters
+    iota = re.sub(r"\W", "", iota)
     return iota
+
+
+PATTERN_CSV_FOLDER = "data"
+def search_csvs(search:str): # str(iotaname) -> str(aqwed)
+    """
+    Checks lookup tables (defined outside of this functions)
+    :param search: an iota to search the tables for
+    :return: that iotas aqwed code in list form
+    """
+    # Open each file in the data folder
+    for file in listdir(PATTERN_CSV_FOLDER):
+        with open(f"{PATTERN_CSV_FOLDER}/{file}","r", encoding="UTF-8") as csvfile:
+            reader = csv.reader(csvfile)
+            for row in reader:
+                # Match the cleaned version of the iota in each row and if successful return the data at that row
+                if clean_iota(row[0]) == search:
+                    return row[1]
+
 
 
 # Prints the help message.
@@ -291,17 +318,19 @@ def print_help():
     return 0
 
 if __name__ == "__main__":
-    # parse arguments
-    args = sys.argv
-    # If no args or some helpy request, print help message.
-    if len(args) == 1 or args[1] == '-h' or args[1] == '--help' or args[1] == 'help':
-        print_help()
-    elif args[1] == 'get_code':
-        print("".join(extract_pattern(args[2])[0]))
-    elif args[1] == 'write_spell':
-        # TODO
-        pyautogui.PAUSE = 0.033
-        move_amt, top_left_x, top_left_y = init_defaults()
-        write_spell(move_amt, top_left_x, top_left_y, RAYCAST_MANTRA)
-    elif args[1] == 'test_default_settings':
-        TODO
+    print(search_csvs("mindsreflection"))
+
+    # # parse arguments
+    # args = sys.argv
+    # # If no args or some helpy request, print help message.
+    # if len(args) == 1 or args[1] == '-h' or args[1] == '--help' or args[1] == 'help':
+    #     print_help()
+    # elif args[1] == 'get_code':
+    #     print("".join(extract_pattern(args[2])[0]))
+    # elif args[1] == 'write_spell':
+    #     # TODO
+    #     pyautogui.PAUSE = 0.033
+    #     move_amt, top_left_x, top_left_y = init_defaults()
+    #     write_spell(move_amt, top_left_x, top_left_y, RAYCAST_MANTRA)
+    # elif args[1] == 'test_default_settings':
+    #     TODO
